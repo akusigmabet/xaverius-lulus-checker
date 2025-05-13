@@ -47,6 +47,14 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50 py-12 px-4">
       <div className="w-full max-w-4xl">
+        <div className="flex flex-col items-center mb-8">
+          <img 
+            src="/lovable-uploads/e37d1d89-9edd-491c-9a3b-86be7d9ede41.png" 
+            alt="Logo SMA Xaverius 3 Palembang"
+            className="w-32 h-auto mb-6"
+          />
+        </div>
+        
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold mb-2">Pengumuman Kelulusan</h1>
           <h2 className="text-2xl font-semibold mb-2">KELAS 12</h2>
