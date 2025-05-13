@@ -6,7 +6,6 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { useToast } from "@/components/ui/use-toast";
 import { Check, X } from "lucide-react";
 import { graduationData } from "@/data/graduation-data";
-import { Link } from 'react-router-dom';
 
 const Index = () => {
   const [nisn, setNisn] = useState('');
@@ -105,12 +104,6 @@ const Index = () => {
             </CardFooter>
           </Card>
         )}
-
-        <div className="mt-8 text-center">
-          <Link to="/list" className="text-blue-500 hover:text-blue-700 underline">
-            Lihat Daftar Lengkap Kelulusan
-          </Link>
-        </div>
       </div>
     </div>
   );
